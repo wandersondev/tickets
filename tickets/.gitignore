@@ -1,0 +1,80 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Arquivos e pastas do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos compilados do Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Diretórios de output da compilação
+/bin/
+/target/
+/build/
+/out/
+
+# Arquivos de configuração específicos do Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+
+# Arquivos de IDEs populares (bom para outros colaboradores)
+.idea/
+*.iml
+*.iws
+
+# Arquivos de pacotes e dependências (Maven/Gradle)
+/pom.xml.tag
+/pom.xml.releaseBackup
+/pom.xml.versionsBackup
+/release.properties
+/dependency-reduced-pom.xml
+/.gradle
+/build/
+
+# Arquivos sensíveis
+# Nunca comite arquivos com senhas, tokens ou chaves de API
+*.env
+credentials.properties
