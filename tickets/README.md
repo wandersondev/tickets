@@ -44,24 +44,29 @@ Técnicos e Admins terão uma visão geral de todos os tickets.
  Dashboard Intuitivo: Painéis diferentes para cada tipo de perfil, mostrando as informações mais relevantes.
  Design Responsivo: A interface se adaptará a diferentes tamanhos de tela (desktop, tablet e mobile).
 
-🛠️ Tecnologias
 
-Frontend: Vue.js
+## Stack Tecnológica 💻🛠️ 
 
-Backend:  Java (Spring)
-
-Banco de Dados: PostgreSQL
-
-Autenticação: JWT e OAuth
-
-Fluxo: n8n (implementação futura ) 
-
-ChatBot: ChatGPT (implementação futura ) 
+*   **Linguagem Principal:** Java 21
+*   **Framework Backend:** Spring Boot
+*   **Banco de Dados:** PostgreSQL 
+*   **Gerenciador de Dependências:** Maven 
+*   **IDE de Desenvolvimento:** Eclipse IDE
+*   **Controle de Versão:** Git & GitHub
+*   **Testes:** JUnit 5
+*   **Frontend:**  Vue.js
+*   **Autenticação:**  JWT e OAuth
+*   **Fluxo:** n8n
+*   **ChatBot::**  ChatGPT 
 
 🚀 Como Acompanhar ou Contribuir
 Estou desenvolvendo este projeto de forma aberta. Se você tiver alguma sugestão, dúvida ou quiser trocar uma ideia, ficarei feliz em conversar!
 
 📫 Contato
+
 Wanderson Pinheiro
+
 Email: wandersonsantanapinheiro@gmail.com
+
 GitHub: https://github.com/wandersondev/tickets
+
