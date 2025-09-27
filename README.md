@@ -49,10 +49,14 @@ Técnicos e Admins terão uma visão geral de todos os tickets.
 🛠️ Tecnologias
 
 Frontend: Vue.js
+
 Backend:  Java (Spring)?
+
 Banco de Dados: PostgreSQL
+
 Autenticação: JWT e OAuth
-n8n implementação futura (ainda nem conheço mais ouço falar de mais,  então tenho uma vps com n8n) 
+
+n8n (implementação futura ainda nem conheço mais ouço falar de mais,  então tenho uma vps com n8n) 
 
 🚀 Como Acompanhar ou Contribuir
 Estou desenvolvendo este projeto de forma aberta. Se você tiver alguma sugestão, dúvida ou quiser trocar uma ideia, ficarei feliz em conversar!
