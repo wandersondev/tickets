@@ -50,7 +50,7 @@ Técnicos e Admins terão uma visão geral de todos os tickets.
 
 Frontend: Vue.js
 
-Backend:  Java (Spring)?
+Backend:  Java (Spring)
 
 Banco de Dados: PostgreSQL
 
