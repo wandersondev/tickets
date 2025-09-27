@@ -1,4 +1,4 @@
-Ticket System Project (Em Desenvolvimento)
+### e-Tickets (Em Desenvolvimento)
 Badge em Desenvolvimento
 
 Bem-vindo ao repositório do meu projeto de Sistema de Tickets! Este é um projeto de portfólio que estou desenvolvendo para aplicar e demonstrar minhas habilidades em desenvolvimento de software. A ideia é criar um sistema completo para gerenciamento de chamados, desde a abertura até a solução.
