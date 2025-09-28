@@ -35,6 +35,9 @@ public class Usuario implements UserDetails{
     private String email;
 
     private String senha;
+    
+    @Enumerated(EnumType.STRING)
+    private UserRole role;
 
     @Column(name = "imagem_url")
     private String imagemUrl;
@@ -57,10 +60,17 @@ public class Usuario implements UserDetails{
     //Métodos obrigatórios de UserDetail obrigatório
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        // Aqui você define os papéis (roles) do usuário.
-        // Por enquanto, vamos retornar um papel padrão "ROLE_USER".
-        // Futuramente, você pode ter uma entidade Role e uma relação ManyToMany.
-        return List.of(new SimpleGrantedAuthority("ROLE_USER"));
+        if (this.role == UserRole.ADMIN) {
+            return List.of(
+                new SimpleGrantedAuthority("ROLE_ADMIN"),
+                new SimpleGrantedAuthority("ROLE_AGENT"),
+                new SimpleGrantedAuthority("ROLE_USER")
+            );
+        } else if (this.role == UserRole.AGENT) {
+            return List.of(new SimpleGrantedAuthority("ROLE_AGENT"), new SimpleGrantedAuthority("ROLE_USER"));
+        } else {
+            return List.of(new SimpleGrantedAuthority("ROLE_USER"));
+        }
     }
 
     @Override
