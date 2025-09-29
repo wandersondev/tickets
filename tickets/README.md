@@ -68,5 +68,11 @@ Wanderson Pinheiro
 
 Email: wandersonsantanapinheiro@gmail.com
 
-GitHub: https://github.com/wandersondev/tickets
+GitHub dos projetos relacionados:
+ 
+[backend tickets](https://github.com/wandersondev/tickets)
+
+
+[frontend tickets](https://github.com/wandersondev/tickets-vue)
+
 

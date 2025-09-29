@@ -25,7 +25,7 @@ public class SecurityConfigurations {
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
-            //.cors().and() // Habilita CORS com configuração padrão ou com WebConfig customizado
+            .cors().and() // Habilita CORS com configuração padrão ou com WebConfig customizado
             .csrf(AbstractHttpConfigurer::disable)
             .sessionManagement(sm -> sm.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
             .authorizeHttpRequests(req -> {
